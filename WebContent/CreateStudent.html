@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Stud.io</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="container">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Stud.io<span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+    <!-- END navbar -->
+    
+    
+      <h1 align=center><br><br>Student registration</h1>
+      <h3 align=center>Please insert your info account:</h3>
+
+      <!-- Registration form -->
+      <div class="container">
+    
+      <form action="AddStudentServlet" name="CreateStudent" method= "POST">
+       <div class="form-group">
+        <label for="username">Username</label>
+        <input class="form-control" id="username" maxlength="50" name="username" type="text" 
+               value="" >
+       </div>
+       <div class="form-group">
+          <label for="Email">Email</label>
+          <input class="form-control" id="emailRegistration" maxlength="255" name="emailRegistration" type="text" 
+               value="">
+        </div>
+        <div class="form-group">
+          <label for="Password">Password</label>
+          <input class="form-control" maxlength="50" id="passwordRegistration" name="passwordRegistration" type="password" 
+               value="">
+        </div>
+        <div class="form-group">
+          <label for="Name">Name</label>
+          <input class="form-control" maxlength="50" id="nameRegistration" name="nameRegistration" type="text" 
+               value="">
+        </div>
+        <div class="form-group">
+          <label for="Surname">Surname</label>
+          <input class="form-control" maxlength="50" id="surnameRegistration" name="surnameRegistration" type="text" 
+               value="">
+        </div>
+        <div class="form-group">
+          <label for="Phone">Phone</label>
+          <input class="form-control" maxlength="10" id="phoneRegistration" name="phoneRegistration" type="text" 
+               value="">
+        </div>
+ 
+        <h2 align=center><input class="btn btn-success mx-auto" role="button" name="registrationBtn" type="submit"
+              id="registrationBtn" value="Sign up"></h2>
+       </form>
+       
+       
+         
+         
+      </div>
+      <!-- End registation form -->
+      
+     
+     <script src="http://code.jquery.com/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

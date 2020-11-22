@@ -1,0 +1,285 @@
+{
+  "id": "34535cd4-d8a3-4647-81f6-66b5ad5e4b9b",
+  "version": "2.0",
+  "name": "UpdateSeatsTest",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "3007e46e-a47b-4801-9d5f-a98e2bec5612",
+    "name": "UpdateSeatsTest",
+    "commands": [{
+      "id": "53bc31ab-93cc-4c73-8a0d-162f545cd51e",
+      "comment": "",
+      "command": "open",
+      "target": "/Studio1.0/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03026e13-9c14-490c-8ad1-04242111a2bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88928e6f-f088-4b81-9793-adc552416e21",
+      "comment": "",
+      "command": "click",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["linkText=User", "linkText"],
+        ["css=#user", "css:finder"],
+        ["xpath=//a[contains(text(),'User')]", "xpath:link"],
+        ["xpath=//a[@id='user']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'login.html')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'User')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "849a0eb6-f2be-4683-82ab-e2ab7ac1e913",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailLogin",
+      "targets": [
+        ["id=emailLogin", "id"],
+        ["name=emailLogin", "name"],
+        ["css=#emailLogin", "css:finder"],
+        ["xpath=//input[@id='emailLogin']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48dff1c7-04ed-4395-973a-be6fd93e90ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailLogin",
+      "targets": [
+        ["id=emailLogin", "id"],
+        ["name=emailLogin", "name"],
+        ["css=#emailLogin", "css:finder"],
+        ["xpath=//input[@id='emailLogin']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "librarian@gmail.com"
+    }, {
+      "id": "3c881201-37f4-4777-951f-d32cf6eaba13",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwordLogin",
+      "targets": [
+        ["id=passwordLogin", "id"],
+        ["name=passwordLogin", "name"],
+        ["css=#passwordLogin", "css:finder"],
+        ["xpath=//input[@id='passwordLogin']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "9f3b8901-a7e5-4fe5-ae01-ac30c850ad13",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginBtn",
+      "targets": [
+        ["id=loginBtn", "id"],
+        ["name=loginBtn", "name"],
+        ["css=#loginBtn", "css:finder"],
+        ["xpath=//input[@id='loginBtn']", "xpath:attributes"],
+        ["xpath=//h2/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c62b881d-be8c-491e-b67c-c9d701449d0c",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45cbe930-8c04-486f-8731-66d84260b766",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f6fcdc1-2d48-4fc7-a59f-8136012cbefb",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d14647a2-eb75-47a8-8124-483ffd92f31b",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46e3e2e3-356b-4d6a-9ccf-47c0ca1a2f16",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05b81363-2215-4894-b66f-d44daf596992",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e89e19-74e6-40a5-bc5e-dd89cf3e9217",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e45b78-5056-4f78-97b0-b4beef98ee19",
+      "comment": "",
+      "command": "click",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e5ddcb-3b2c-495a-abe9-01bfe546ead4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=+",
+      "targets": [
+        ["name=+", "name"],
+        ["css=#buttonUpdateSeats > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='+']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f3b4b4a-cd9b-4db7-a340-6e5e362adf6b",
+      "comment": "",
+      "command": "click",
+      "target": "name=-",
+      "targets": [
+        ["name=-", "name"],
+        ["css=.btn-outline-success:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='-']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a36716-e9a5-4ec8-b3fb-f514bdcd7d4a",
+      "comment": "",
+      "command": "click",
+      "target": "name=-",
+      "targets": [
+        ["name=-", "name"],
+        ["css=.btn-outline-success:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='-']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6516b2-f91f-4756-afbc-f13b86144d79",
+      "comment": "",
+      "command": "click",
+      "target": "name=-",
+      "targets": [
+        ["name=-", "name"],
+        ["css=.btn-outline-success:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='-']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "945c9d91-a040-4a73-b2f0-15289f84a270",
+      "comment": "",
+      "command": "click",
+      "target": "name=-",
+      "targets": [
+        ["name=-", "name"],
+        ["css=.btn-outline-success:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='-']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonUpdateSeats']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f6febe0c-c664-48cd-a59e-18e753843bc6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3007e46e-a47b-4801-9d5f-a98e2bec5612"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
